@@ -6,11 +6,11 @@
 /*   By: amoureau <amoureau@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/08 21:35:53 by amoureau          #+#    #+#             */
-/*   Updated: 2025/09/08 21:41:02 by amoureau         ###   ########.fr       */
+/*   Updated: 2025/09/08 22:56:11 by amoureau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isprint(int c)
+int	ft_isprint(int c)
 {
-    return (c >= 32 && c <= 126);
+	return (c >= 32 && c <= 126);
 }

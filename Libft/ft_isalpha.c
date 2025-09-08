@@ -6,13 +6,13 @@
 /*   By: amoureau <amoureau@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/08 16:23:12 by amoureau          #+#    #+#             */
-/*   Updated: 2025/09/08 17:06:55 by amoureau         ###   ########.fr       */
+/*   Updated: 2025/09/08 22:55:31 by amoureau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
-    return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
+	return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
 }
 /* #include <stdio.h>
 int main(void)

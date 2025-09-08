@@ -6,13 +6,13 @@
 /*   By: amoureau <amoureau@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/08 17:02:39 by amoureau          #+#    #+#             */
-/*   Updated: 2025/09/08 17:10:50 by amoureau         ###   ########.fr       */
+/*   Updated: 2025/09/08 22:56:23 by amoureau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isdigit(int c)
+int	ft_isdigit(int c)
 {
-    return (c >= '0' && c <= '9');
+	return (c >= '0' && c <= '9');
 }
 /* #include <stdio.h>
 int main(void)
