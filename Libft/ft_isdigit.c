@@ -1,21 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: amoureau <amoureau@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/08 16:23:12 by amoureau          #+#    #+#             */
-/*   Updated: 2025/09/08 17:06:55 by amoureau         ###   ########.fr       */
+/*   Created: 2025/09/08 17:02:39 by amoureau          #+#    #+#             */
+/*   Updated: 2025/09/08 17:10:50 by amoureau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_isalpha(int c)
+int ft_isdigit(int c)
 {
-    return ((c >= 'A' && c <= 'Z') || (c >= 'a' && c <= 'z'));
+    return (c >= '0' && c <= '9');
 }
 /* #include <stdio.h>
 int main(void)
 {
-    printf("%d", ft_isalpha('0'));
-} */
+    printf("%d", ft_isdigit('e'));
+}  */
