@@ -1,24 +1,16 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   libft.h                                            :+:      :+:    :+:   */
+/*   ft_isprint.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: amoureau <amoureau@student.42lausanne.c    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/09/08 17:51:53 by amoureau          #+#    #+#             */
-/*   Updated: 2025/09/08 21:35:29 by amoureau         ###   ########.fr       */
+/*   Created: 2025/09/08 21:35:53 by amoureau          #+#    #+#             */
+/*   Updated: 2025/09/08 21:41:02 by amoureau         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef libft_h
-# define libft_h
-
-# include <unistd.h>
-# include <stdlib.h>
-
-int ft_isalpha(int c);
-int ft_isdigit(int c);
-int ft_isalnum(int c);
-int ft_isascii(int c);
-
-#endif
+int ft_isprint(int c)
+{
+    return (c >= 32 && c <= 126);
+}
